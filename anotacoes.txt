@@ -7,3 +7,10 @@ COMPONENTES{
     Os componentes renderizam JSX;
     Normalmente ficam em uma pasta de mesmo nome;
 }
+
+PROPS{
+    São valores passados para componentes;
+    Podemos deixá-los dinamicos;
+    O valor é passado como atributo na chamada do componente;
+}
+

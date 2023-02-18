@@ -1,28 +1,27 @@
 import './App.css';
 import HelloWord from './components/HelloWord';
+import SayMyName from './components/SayMyName'
+import Pessoa from './components/Pessoa'
 
 function App() {
 
-  const myName = "Kauã"
-
-  function soma(x, y) {
-    return x + y
-  }
-
-  const url = 'https://via.placeholder.com/150'
+  const nome = 'José'
 
   return (
     <div className="App">
-      <h1>Meu app React</h1>
-      <p>lorem ipsum dorem</p>
-      <p>O meu nome é {myName}</p>
-      <p>A soma: {soma(2, 3)}</p>
-      <img src={url} alt='sdfsdf' />
-
       <HelloWord />
+      <SayMyName nome='Kauã'/>
+      <SayMyName nome={nome} />
 
+      <Pessoa 
+        img='https://via.placeholder.com/200' 
+        nome='Kauã' 
+        idade='17' 
+        profissao='Programador' 
+      />
     </div>
   );
+    
 }
 
 export default App;
