@@ -1,3 +1,9 @@
 O Js roda a partir da tag "#root" da pagina HTML
 
 O JSX é como um HTML, porém dentro do código JS
+
+COMPONENTES{
+    Permite dividir a aplicação em partes;
+    Os componentes renderizam JSX;
+    Normalmente ficam em uma pasta de mesmo nome;
+}
