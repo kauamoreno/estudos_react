@@ -1,0 +1,3 @@
+O Js roda a partir da tag "#root" da pagina HTML
+
+O JSX é como um HTML, porém dentro do código JS
