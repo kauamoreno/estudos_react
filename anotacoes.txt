@@ -14,3 +14,7 @@ PROPS{
     O valor é passado como atributo na chamada do componente;
 }
 
+CSS{
+    CSS de forma global fica em index.css;
+    Para ultilizar css em componentes usar como: Componente.module.css;
+}
