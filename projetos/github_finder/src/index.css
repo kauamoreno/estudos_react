@@ -1,0 +1,20 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;500&family=Roboto:ital@1&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #0e1129;
+  padding: 2rem;
+}
+
+p {
+  text-align: center;
+}

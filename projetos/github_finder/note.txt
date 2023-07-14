@@ -1,0 +1,7 @@
+npm create vite@latest ->Criar o projeto
+
+npm i react-router-dom react-icons
+
+npm run dev
+
+rafce
